@@ -1,0 +1,29 @@
+{
+  "name": "aibankingportal",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A secure, accessible Canadian retail banking portal demo",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node --check src/app.js && node --check src/server.js && node --check src/store.js && node --check public/js/api.js",
+    "test": "jest --runInBand --testMatch \"**/tests/**/*.test.js\"",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
