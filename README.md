@@ -105,8 +105,3 @@ npm run test:e2e
   management.
 - Expand accessibility and cross-browser Playwright coverage.
 - Add a production deployment workflow with environment-specific approvals.
-
-## License
-
-No license has been selected yet. Add an appropriate license before accepting
-external contributions or redistributing the project.
